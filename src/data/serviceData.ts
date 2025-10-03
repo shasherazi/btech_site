@@ -1,9 +1,13 @@
 
 import { BrandingIcon, BusinessConsultationIcon, BusinessGrowthIcon, ChartIcon, ExpertSupportIcon, HexagonIcon, ImageQualityIcon, LayersIcon, LightningBoltIcon, ProfessionalBusinessIcon, ReliableWxpertIcon, ShieldIcon, ShoppingCartIcon, UIUXDesignIcon, WebDevelopmentIcon } from "@/svg/ServiesIcons";
-import service1 from "../../public/assets/img/home-01/service/service-1.jpg";
-import service2 from "../../public/assets/img/home-01/service/service-2.jpg";
-import service3 from "../../public/assets/img/home-01/service/service-3.jpg";
-import service4 from "../../public/assets/img/home-01/service/service-4.jpg";
+// import service1 from "../../public/assets/img/home-01/service/service-1.jpg";
+import service1 from "../../public/assets/img/non-theme/web_design.png";
+// import service2 from "../../public/assets/img/home-01/service/service-2.jpg";
+import service2 from "../../public/assets/img/non-theme/product_design.jpeg";
+// import service3 from "../../public/assets/img/home-01/service/service-3.jpg";
+import service3 from "../../public/assets/img/non-theme/web_dev.jpeg";
+// import service4 from "../../public/assets/img/home-01/service/service-4.jpg";
+import service4 from "../../public/assets/img/non-theme/branding.jpeg";
 import { servicesDT } from "@/types/service-d-t";
 //home-5 design agency light service image
 import service5 from '../../public/assets/img/home-05/service/service-1.jpg';

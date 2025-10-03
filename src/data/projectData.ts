@@ -1,12 +1,18 @@
 
 import { projectsDT } from '@/types/project-d-t';
 //home main project
-import project1 from "../../public/assets/img/home-01/project/project-1.jpg"
-import project2 from "../../public/assets/img/home-01/project/project-2.jpg"
-import project3 from "../../public/assets/img/home-01/project/project-3.jpg"
-import project4 from "../../public/assets/img/home-01/project/project-4.jpg"
-import project5 from "../../public/assets/img/home-01/project/project-5.jpg"
-import project6 from "../../public/assets/img/home-01/project/project-6.jpg"
+// import project1 from "../../public/assets/img/home-01/project/project-1.jpg"
+import project1 from "../../public/assets/img/non-theme/project1.jpeg"
+// import project2 from "../../public/assets/img/home-01/project/project-2.jpg"
+import project2 from "../../public/assets/img/non-theme/project2.jpeg"
+// import project3 from "../../public/assets/img/home-01/project/project-3.jpg"
+import project3 from "../../public/assets/img/non-theme/project3.jpeg"
+// import project4 from "../../public/assets/img/home-01/project/project-4.jpg"
+import project4 from "../../public/assets/img/non-theme/project4.jpeg"
+// import project5 from "../../public/assets/img/home-01/project/project-5.jpg"
+import project5 from "../../public/assets/img/non-theme/project5.jpeg"
+// import project6 from "../../public/assets/img/home-01/project/project-6.jpg"
+import project6 from "../../public/assets/img/non-theme/project6.jpeg"
 //home 3 project image
 import project7 from "../../public/assets/img/home-03/project/project-1.jpg";
 import project8 from "../../public/assets/img/home-03/project/project-2.jpg";

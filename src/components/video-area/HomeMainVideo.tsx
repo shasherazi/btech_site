@@ -1,8 +1,13 @@
-import videoImgOne from "../../../public/assets/img/home-01/video/video-1.jpg";
-import videoImgTwo from "../../../public/assets/img/home-01/video/video-3.jpg";
-import videoImgThree from "../../../public/assets/img/home-01/video/video-4.jpg";
-import videoImgFour from "../../../public/assets/img/home-01/video/video-5.jpg";
-import videoImgFive from "../../../public/assets/img/home-01/video/video-6.jpg";
+// import videoImgOne from "../../../public/assets/img/home-01/video/video-1.jpg";
+import videoImgOne from "../../../public/assets/img/non-theme/video1.jpeg";
+// import videoImgTwo from "../../../public/assets/img/home-01/video/video-3.jpg";
+import videoImgTwo from "../../../public/assets/img/non-theme/video2.jpg";
+// import videoImgThree from "../../../public/assets/img/home-01/video/video-4.jpg";
+import videoImgThree from "../../../public/assets/img/non-theme/video3.jpeg";
+// import videoImgFour from "../../../public/assets/img/home-01/video/video-5.jpg";
+import videoImgFour from "../../../public/assets/img/non-theme/video4.jpeg";
+// import videoImgFive from "../../../public/assets/img/home-01/video/video-6.jpg";
+import videoImgFive from "../../../public/assets/img/non-theme/video5.jpeg";
 import VideoPlayer from '../shared/VideoPlayer/VideoPlayer';
 import Image from 'next/image';
 import React from 'react';

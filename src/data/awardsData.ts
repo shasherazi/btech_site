@@ -1,10 +1,16 @@
 import { awardDT } from "@/types/award-d-t";
-import awardImg from "../../public/assets/img/home-01/award/award-1.jpg";
-import awardImg2 from "../../public/assets/img/home-01/award/award-2.jpg";
-import awardImg3 from "../../public/assets/img/home-01/award/award-3.jpg";
-import awardImg4 from "../../public/assets/img/home-01/award/award-4.jpg";
-import awardImg5 from "../../public/assets/img/home-01/award/award-5.jpg";
-import awardImg6 from "../../public/assets/img/home-01/award/award-6.jpg";
+// import awardImg from "../../public/assets/img/home-01/award/award-1.jpg";
+import awardImg from "../../public/assets/img/non-theme/awardcard1.jpeg";
+// import awardImg2 from "../../public/assets/img/home-01/award/award-2.jpg";
+import awardImg2 from "../../public/assets/img/non-theme/awardcard2.jpeg";
+// import awardImg3 from "../../public/assets/img/home-01/award/award-3.jpg";
+import awardImg3 from "../../public/assets/img/non-theme/awardcard3.jpeg";
+// import awardImg4 from "../../public/assets/img/home-01/award/award-4.jpg";
+import awardImg4 from "../../public/assets/img/non-theme/awardcard4.jpeg";
+// import awardImg5 from "../../public/assets/img/home-01/award/award-5.jpg";
+import awardImg5 from "../../public/assets/img/non-theme/awardcard5.jpeg";
+// import awardImg6 from "../../public/assets/img/home-01/award/award-6.jpg";
+import awardImg6 from "../../public/assets/img/non-theme/awardcard6.jpeg";
 
 //startup agency award thumb
 import awardThumb from "../../public/assets/img/home-12/award/st-award-thumb-1.jpg";

@@ -1,13 +1,19 @@
 // Image imports with types
 import placeholder from '../../public/assets/img/home-01/funfact/funfact-placeholder.png';
-import one from '../../public/assets/img/home-01/funfact/funfact-1.png';
-import two from '../../public/assets/img/home-01/funfact/funfact-2.png';
-import three from '../../public/assets/img/home-01/funfact/funfact-3.png';
-import four from '../../public/assets/img/home-01/funfact/funfact-4.png';
-import five from '../../public/assets/img/home-01/funfact/funfact-5.png';
+// import one from '../../public/assets/img/home-01/funfact/funfact-1.png';
+import one from '../../public/assets/img/non-theme/ff1.png';
+// import two from '../../public/assets/img/home-01/funfact/funfact-2.png';
+import two from '../../public/assets/img/non-theme/ff2.png';
+// import three from '../../public/assets/img/home-01/funfact/funfact-3.png';
+import three from '../../public/assets/img/non-theme/ff3.png';
+// import four from '../../public/assets/img/home-01/funfact/funfact-4.png';
+import four from '../../public/assets/img/non-theme/ff4.png';
+// import five from '../../public/assets/img/home-01/funfact/funfact-5.png';
+import five from '../../public/assets/img/non-theme/ff5.png';
 import six from '../../public/assets/img/home-01/funfact/funfact-6.png';
-import seven from '../../public/assets/img/home-01/funfact/funfact-8.png';
-import eight from '../../public/assets/img/home-01/funfact/funfact-9.png';
+import seven from '../../public/assets/img/home-01/funfact/funfact-7.png';
+// import eight from '../../public/assets/img/home-01/funfact/funfact-9.png';
+import eight from '../../public/assets/img/non-theme/ff8.png';
 import { Panel } from '@/types/custom-d-t';
 
 // Panel data
@@ -47,7 +53,7 @@ const panelsData: Panel[] = [
     spacingCls: "",
     images: [
       { src: one, delay: 0.3 },
-      { src: seven, delay: 0.5 },
+      { src: placeholder, delay: 0.5 },
       { src: eight, delay: 0.7 },
       { src: placeholder, delay: 0.9 },
       { src: placeholder, delay: 1.0 },

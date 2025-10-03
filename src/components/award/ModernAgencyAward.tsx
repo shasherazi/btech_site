@@ -1,6 +1,9 @@
-import awardOne from '../../../public/assets/img/home-01/award/award-1.png';
-import awardTwo from '../../../public/assets/img/home-01/award/award-2.png';
-import awardThree from '../../../public/assets/img/home-01/award/award-3.png';
+// import awardOne from '../../../public/assets/img/home-01/award/award-1.png';
+import awardOne from '../../../public/assets/img/non-theme/award1.webp';
+// import awardTwo from '../../../public/assets/img/home-01/award/award-2.png';
+import awardTwo from '../../../public/assets/img/non-theme/award2.webp';
+// import awardThree from '../../../public/assets/img/home-01/award/award-3.png';
+import awardThree from '../../../public/assets/img/non-theme/award3.webp';
 import noiseBg from "../../../public/assets/img/home-01/testimonial/noise.png"
 import AwardItem from './subComponents/AwardItem';
 import Image from 'next/image';

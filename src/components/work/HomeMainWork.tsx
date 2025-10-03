@@ -20,7 +20,7 @@ const HomeMainWork = () => {
                                 </div>
                                 <div className="tp-work-content">
                                     <h4 className="tp-work-title">User Research</h4>
-                                    <p>We listen stories of user to understand pain points and give a rough <br /> estimate about cost and time-frame</p>
+                                    <p>We conduct interviews and surveys to identify user needs and build empathy with their challenges</p>
                                 </div>
                             </div>
                             <div className="tp-work-item tp-panel-pin mb-15">
@@ -30,7 +30,7 @@ const HomeMainWork = () => {
                                 </div>
                                 <div className="tp-work-content">
                                     <h4 className="tp-work-title">Define Problems</h4>
-                                    <p>We listen stories of user to understand pain points and give a rough <br /> estimate about cost and time-frame</p>
+                                    <p>We analyze findings to clearly articulate the core issues and set objectives for design solutions</p>
                                 </div>
                             </div>
                             <div className="tp-work-item tp-panel-pin mb-15">
@@ -40,7 +40,7 @@ const HomeMainWork = () => {
                                 </div>
                                 <div className="tp-work-content">
                                     <h4 className="tp-work-title">Design & Prototype</h4>
-                                    <p>We listen stories of user to understand pain points and give a rough <br /> estimate about cost and time-frame</p>
+                                    <p>Sketching and modeling are used to develop creative ideas and visualize potential solutions quickly.</p>
                                 </div>
                             </div>
                             <div className="tp-work-item tp-panel-pin mb-15">
@@ -50,7 +50,7 @@ const HomeMainWork = () => {
                                 </div>
                                 <div className="tp-work-content">
                                     <h4 className="tp-work-title">Evaluation & Testing</h4>
-                                    <p>We listen stories of user to understand pain points and give a rough <br /> estimate about cost and time-frame</p>
+                                    <p>Prototypes are assessed through testing to gather feedback and refine usability and functionality.</p>
                                 </div>
                             </div>
                         </div>

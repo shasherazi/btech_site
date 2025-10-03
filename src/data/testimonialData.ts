@@ -1,10 +1,16 @@
 import { TestimonialDT } from "@/types/testimonial-d-t";
-import avaterOne from "../../public/assets/img/avater/avater-1.png";
-import avaterTwo from "../../public/assets/img/avater/avater-2.png";
-import avaterThree from "../../public/assets/img/avater/avater-3.jpg";
-import avaterFour from "../../public/assets/img/avater/avater-4.jpg";
-import avaterFive from "../../public/assets/img/avater/avater-5.jpg";
-import avaterSix from "../../public/assets/img/avater/avater-6.jpg";
+// import avaterOne from "../../public/assets/img/avater/avater-1.png";
+import avaterOne from "../../public/assets/img/non-theme/avatar1.jpeg";
+// import avaterTwo from "../../public/assets/img/avater/avater-2.png";
+import avaterTwo from "../../public/assets/img/non-theme/avatar2.jpeg";
+// import avaterThree from "../../public/assets/img/avater/avater-3.jpg";
+import avaterThree from "../../public/assets/img/non-theme/avatar3.jpeg";
+// import avaterFour from "../../public/assets/img/avater/avater-4.jpg";
+import avaterFour from "../../public/assets/img/non-theme/avatar4.jpeg";
+// import avaterFive from "../../public/assets/img/avater/avater-5.jpg";
+import avaterFive from "../../public/assets/img/non-theme/avatar5.jpeg";
+// import avaterSix from "../../public/assets/img/avater/avater-6.jpg";
+import avaterSix from "../../public/assets/img/non-theme/avatar6.jpeg";
 //home four avater image
 import avater7 from "../../public/assets/img/home-04/avater/avater-1.jpg";
 import avater8 from "../../public/assets/img/home-04/avater/avater-3.jpg";
@@ -32,7 +38,7 @@ import userImg7 from "../../public/assets/img/product/product-details-main/desc/
 const testimonialsData: TestimonialDT[] = [
     {
         id: 1,
-        quote: "“Agntix studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
+        quote: "“Btech Group's innovative approach transformed our user interface beyond our expectations. Their creative flair and dedication are truly impressive.”",
         name: "Albert Juan",
         position: "CEO & Founder, Archin Studio",
         avatar: avaterOne,
@@ -40,7 +46,7 @@ const testimonialsData: TestimonialDT[] = [
     },
     {
         id: 2,
-        quote: "“Agntix studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
+        quote: "“Working with Btech Group was a seamless experience. Their professionalism and attention to detail set them apart in crafting stunning UI designs.”",
         name: "Koen Chegg",
         position: "CEO & Founder, Archin Studio",
         avatar: avaterTwo,
@@ -48,7 +54,7 @@ const testimonialsData: TestimonialDT[] = [
     },
     {
         id: 3,
-        quote: "“Agntix studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
+        quote: "“The design expertise at Btech Group is unmatched. They infused creativity and passion into every aspect of our user interface project.”",
         name: "Warren Daniel",
         position: "CEO & Founder, Archin Studio",
         avatar: avaterThree,
@@ -56,7 +62,7 @@ const testimonialsData: TestimonialDT[] = [
     },
     {
         id: 4,
-        quote: "“Agntix studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
+        quote: "“Btech Group delivered a user interface that is both visually appealing and user-friendly. Their creative talent and enthusiasm make them a joy to work with.”",
         name: "Elvin Bond",
         position: "CEO & Founder, Archin Studio",
         avatar: avaterFour,
@@ -64,7 +70,7 @@ const testimonialsData: TestimonialDT[] = [
     },
     {
         id: 5,
-        quote: "“Agntix studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
+        quote: "“With Btech Group, we received not just a service but a collaborative journey towards achieving an exceptional user experience.”",
         name: "Abbas",
         position: "CEO & Founder, Archin Studio",
         avatar: avaterFive,
@@ -72,7 +78,7 @@ const testimonialsData: TestimonialDT[] = [
     },
     {
         id: 6,
-        quote: "“Agntix studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
+        quote: "“Btech Group brought our vision to life with their extraordinary UI design skills. Their passion and creativity shine in every detail.”",
         name: "Jessamine Mumtaz",
         position: "CEO & Founder, Archin Studio",
         avatar: avaterSix,
@@ -80,7 +86,7 @@ const testimonialsData: TestimonialDT[] = [
     },
     {
         id: 7,
-        quote: "“Agntix studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
+        quote: "“What sets Btech Group apart is their commitment to excellence and their ability to bring innovative ideas to UI design.”",
         name: "Koen Chegg",
         position: "CEO & Founder, Archin Studio",
         avatar: avaterTwo,
