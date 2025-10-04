@@ -13,8 +13,9 @@ import HomeMainFooter from '@/layouts/footers/HomeMainFooter';
 import useScrollSmooth from '@/hooks/useScrollSmooth';
 import { useGSAP } from '@gsap/react';
 import React from 'react';
+import { NonThemeServiceData } from '@/data/nonThemeServicesData';
 
-const ServiceFiveMain = () => {
+const ServiceFiveMain = (data:NonThemeServiceData) => {
     // Initialize custom cursor and background styles
     useCursorAndBackground({ bgColor: "#fff" });
 
@@ -43,11 +44,11 @@ const ServiceFiveMain = () => {
             <div id="smooth-wrapper">
                 <div id="smooth-content">
                     <main>
-                        <ServiceFiveHero />
-                        <ServiceFiveBanner />
-                        <ServiceFiveProcessArea />
-                        <ServiceBenifit />
-                        <ServiceFeature />
+                        <ServiceFiveHero {...data} />
+                        <ServiceFiveBanner {...data} />
+                        <ServiceFiveProcessArea {...data}/>
+                        <ServiceBenifit {...data}/>
+                        <ServiceFeature {...data}/>
                         <ServiceDetailsPrice />
                     </main>
                     <HomeMainFooter bgColor='#F6F6F9' quikLinkCls="" socialBtnCls='social-btn-cls'/>

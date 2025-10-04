@@ -1,11 +1,11 @@
 // import feature from '../../../public/assets/img/service/service-5/service-5-feature.jpg';
-import feature from '../../../public/assets/img/non-theme/webdev/benefits.jpeg';
+import { NonThemeServiceData } from '@/data/nonThemeServicesData';
 import { useVideoModal } from '@/provider/VideoProvider';
 import { FeatureArrowIcon } from '@/svg/FeaturesIcons';
 import Image from 'next/image';
 import React from 'react';
 
-const ServiceFeature = () => {
+const ServiceFeature = (data:NonThemeServiceData) => {
     const { playVideo } = useVideoModal();
 
     return (
@@ -19,7 +19,7 @@ const ServiceFeature = () => {
                                 <h3 className="tp-service-5-feature-title">We provide <br /> special offers for <br />
                                     the best customers</h3>
                             </div>
-                            <Image style={{ width: "100%", height: "auto" }} data-speed=".8" src={feature} alt="feature image" />
+                            <Image style={{ width: "100%", height: "auto" }} data-speed=".8" src={data.thirdImage} alt="feature image" />
                         </div>
                     </div>
                 </div>

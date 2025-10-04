@@ -17,12 +17,12 @@ const headerMenuData:MenuItem[] = [
         pluseIncon: true,
 
         megaMenu: [
-          { title: "Web And Mobile Development", link: "/service-details-light" },
-          { title: "Enterprise Software Development", link: "/about-us-light" },
-          { title: "E-commerce Development", link: "/about-modern-light" },
-          { title: "Artificial Intelligence", link: "/about-creative-light" },
-          { title: "Cyber Security", link: "/about-startup-light" },
-          { title: "UI/UX Design", link: "/career-light" }
+          { "title": "Web And Mobile Development", "link": "/service/webAndMobile" },
+          { "title": "Enterprise Software Development", "link": "/service/enterpriseSoftwareDevelopment" },
+          { "title": "E-commerce Development", "link": "/service/eCommerce" },
+          { "title": "Artificial Intelligence", "link": "/service/ai" },
+          { "title": "Cyber Security", "link": "/service/cyberSecurity" },
+          { "title": "UI/UX Design", "link": "/service/uiUxDesign" }
         ]
       },
       {

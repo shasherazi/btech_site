@@ -1,11 +1,10 @@
-import shape from '../../../public/assets/img/about-us/about-us-4/about-us-4-shape-1.png';
+import { NonThemeServiceData } from '@/data/nonThemeServicesData';
 import teamBgImg from '../../../public/assets/img/team/team-bg.png';
 import { ArrowTwenty } from '@/svg/ArrowIcons';
 import { CareerShape } from '@/svg/HeroShape';
-import Image from 'next/image';
 import React from 'react';
 
-const ServiceFiveHero = () => {
+const ServiceFiveHero = (data:NonThemeServiceData) => {
     return (
         <div className="ar-hero-area p-relative pt-190 pb-100" style={{ backgroundImage: `url(${teamBgImg.src})` }}>
             <div className="career-shape-style">
@@ -16,12 +15,12 @@ const ServiceFiveHero = () => {
                     <div className="col-xl-12">
                         <div className="ar-hero-title-box service-5-heading tp_fade_anim mb-80" data-delay=".3">
                             <div className="ar-about-us-4-title-box d-flex align-items-center mb-20">
-                                <span className="tp-section-subtitle pre tp_fade_anim">Web Design</span>
+                                <span className="tp-section-subtitle pre tp_fade_anim">{data.smallHeading}</span>
                                 <div className="ar-about-us-4-icon">
                                     <ArrowTwenty />
                                 </div>
                             </div>
-                            <h3 className="tp-career-title">Web and mobile <span className="shape-1"><Image src={shape} alt="shape" /></span> <br />development</h3>
+                            <h3 className="tp-career-title">{data.bigHeading}</h3>
                         </div>
                     </div>
                 </div>
@@ -29,16 +28,13 @@ const ServiceFiveHero = () => {
                     <div className="col-lg-4"></div>
                     <div className="col-lg-8">
                         <div className="tp-service-5-text tp_fade_anim" data-delay=".5">
-                            <p>Explore solutions for creating responsive and efficient web and mobile applications that work seamlessly across all devices</p>
+                            <p>{data.description}</p>
                         </div>
                         <div className="tp-service-5-list tp_fade_anim " data-delay=".7">
                             <ul>
-                                <li>+ API Development</li>
-                                <li>+ Cloud Migration</li>
-                                <li>+ JavaScript</li>
-                                <li>+ WordPress</li>
-                                <li>+ Front End Development</li>
-                                <li>+ Flutter Framework</li>
+                                {data.subServices.map((service, index) => (
+                                    <li key={index}>+ {service}</li>
+                                ))}
                             </ul>
                         </div>
                     </div>
