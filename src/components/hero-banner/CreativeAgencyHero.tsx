@@ -1,26 +1,42 @@
 import React from 'react';
 
 // Import all images
-import img1 from '../../../public/assets/img/1.webp';
-import img2 from '../../../public/assets/img/2.webp';
-import img3 from '../../../public/assets/img/3.webp';
-import img4 from '../../../public/assets/img/4.webp';
-import img5 from '../../../public/assets/img/5.webp';
-import img6 from '../../../public/assets/img/6.webp';
-import img7 from '../../../public/assets/img/7.webp';
-import img9 from '../../../public/assets/img/9.webp';
-import img10 from '../../../public/assets/img/10.webp';
-import img11 from '../../../public/assets/img/11.webp';
-import img12 from '../../../public/assets/img/12.webp';
-import img13 from '../../../public/assets/img/13.webp';
-import img14 from '../../../public/assets/img/14.webp';
-import img15 from '../../../public/assets/img/15.webp';
-import img16 from '../../../public/assets/img/16.webp';
-import img17 from '../../../public/assets/img/17.webp';
+// import img1 from '../../../public/assets/img/1.webp';
+import img1 from '../../../public/assets/img/non-theme/services/1.webp';
+// import img2 from '../../../public/assets/img/2.webp';
+import img2 from '../../../public/assets/img/non-theme/services/2.webp';
+// import img3 from '../../../public/assets/img/3.webp';
+import img3 from '../../../public/assets/img/non-theme/services/3.webp';
+// import img4 from '../../../public/assets/img/4.webp';
+import img4 from '../../../public/assets/img/non-theme/services/4.webp';
+// import img5 from '../../../public/assets/img/5.webp';
+import img5 from '../../../public/assets/img/non-theme/services/5.webp';
+// import img6 from '../../../public/assets/img/6.webp';
+import img6 from '../../../public/assets/img/non-theme/services/6.webp';
+// import img7 from '../../../public/assets/img/7.webp';
+import img7 from '../../../public/assets/img/non-theme/services/7.webp';
+// import img9 from '../../../public/assets/img/9.webp';
+import img9 from '../../../public/assets/img/non-theme/services/9.webp';
+// import img10 from '../../../public/assets/img/10.webp';
+import img10 from '../../../public/assets/img/non-theme/services/10.webp';
+// import img11 from '../../../public/assets/img/11.webp';
+import img11 from '../../../public/assets/img/non-theme/services/11.webp';
+// import img12 from '../../../public/assets/img/12.webp';
+import img12 from '../../../public/assets/img/non-theme/services/12.webp';
+// import img13 from '../../../public/assets/img/13.webp';
+import img13 from '../../../public/assets/img/non-theme/services/13.webp';
+// import img14 from '../../../public/assets/img/14.webp';
+import img14 from '../../../public/assets/img/non-theme/services/14.webp';
+// import img15 from '../../../public/assets/img/15.webp';
+import img15 from '../../../public/assets/img/non-theme/services/15.webp';
+// import img16 from '../../../public/assets/img/16.webp';
+import img16 from '../../../public/assets/img/non-theme/services/16.webp';
+// import img17 from '../../../public/assets/img/17.webp';
+import img17 from '../../../public/assets/img/non-theme/services/17.webp';
 import ImageTrail from '@/utils/ImageTrail';
 import Link from 'next/link';
 
-const CreativeAgencyHero = ({ title = "Agntix", fontStyle="" }) => {
+const CreativeAgencyHero = ({ title = "Btech-Group", fontStyle="" }) => {
     // Create an array of image data
     const images = [
         { id: 1, src: img1 },
@@ -49,9 +65,9 @@ const CreativeAgencyHero = ({ title = "Agntix", fontStyle="" }) => {
                     <div className="row">
                         <div className="col-xl-12">
                             <div className="studio-hero-info z-index-5 d-flex justify-content-md-between justify-content-center align-items-center">
-                                <Link href="mailto:@agntix.studio">@agntix.studio</Link>
+                                <Link href="mailto:Info@btech-group.com">@Btech Group</Link>
                                 <span>Motion design <br /> Studio</span>
-                                <Link href="mailto:@agntix.studio">@agntix.studio</Link>
+                                <Link href="mailto:Info@btech-group.com">@Btech Group</Link>
                             </div>
                         </div>
                     </div>

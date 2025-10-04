@@ -33,14 +33,22 @@ import stService2 from '../../public/assets/img/home-12/service/st-service-2.jpg
 import stService3 from '../../public/assets/img/home-12/service/st-service-3.jpg';
 import stService4 from '../../public/assets/img/home-12/service/st-service-4.jpg';
 //inner service-1 images
-import service15 from '../../public/assets/img/inner-service/service-3.jpg';
-import service16 from '../../public/assets/img/inner-service/service-4.jpg';
-import service17 from '../../public/assets/img/inner-service/service-1.jpg';
-import service18 from '../../public/assets/img/inner-service/service-2.jpg';
-import service19 from '../../public/assets/img/inner-service/service-5.jpg';
-import service20 from '../../public/assets/img/inner-service/service-6.jpg';
-import service21 from '../../public/assets/img/inner-service/service-7.jpg';
-import service22 from '../../public/assets/img/inner-service/service-8.jpg';
+// import service15 from '../../public/assets/img/inner-service/service-3.jpg';
+import service15 from '../../public/assets/img/non-theme/services/branding1.jpeg';
+// import service16 from '../../public/assets/img/inner-service/service-4.jpg';
+import service16 from '../../public/assets/img/non-theme/services/branding2.jpeg';
+// import service17 from '../../public/assets/img/inner-service/service-1.jpg';
+import service17 from '../../public/assets/img/non-theme/services/branding3.jpeg';
+// import service18 from '../../public/assets/img/inner-service/service-2.jpg';
+import service18 from '../../public/assets/img/non-theme/services/branding4.jpeg';
+// import service19 from '../../public/assets/img/inner-service/service-5.jpg';
+import service19 from '../../public/assets/img/non-theme/services/branding5.jpeg';
+// import service20 from '../../public/assets/img/inner-service/service-6.jpg';
+import service20 from '../../public/assets/img/non-theme/services/branding6.jpeg';
+// import service21 from '../../public/assets/img/inner-service/service-7.jpg';
+import service21 from '../../public/assets/img/non-theme/services/branding7.jpeg';
+// import service22 from '../../public/assets/img/inner-service/service-8.jpg';
+import service22 from '../../public/assets/img/non-theme/services/branding8.jpeg';
 
 const servicesData: servicesDT[] = [
     //Home main services data start

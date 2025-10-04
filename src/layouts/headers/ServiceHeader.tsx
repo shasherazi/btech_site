@@ -1,6 +1,7 @@
 import MobileMenus from "@/layouts/subComponents/MobileMenus";
 import MobileOffcanvas from "@/components/offcanvas/MobileOffcanvas";
-import logo from "../../../public/assets/img/logo/logo-black.png";
+// import logo from "../../../public/assets/img/logo/logo-black.png";
+import logo from "../../../public/assets/img/non-theme/black-logo.png";
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
