@@ -12,7 +12,7 @@ const DesignAgencyCopyright = () => {
                 <div className="row">
                     <div className="col-md-6">
                         <div className="design-copyright-text text-center text-md-start mb-10">
-                            <p>© {getCurrentYear()} Agntix, All rights reserved.</p>
+                            <p>© {getCurrentYear()} Btech Group, All rights reserved.</p>
                         </div>
                     </div>
                     <div className="col-md-6">

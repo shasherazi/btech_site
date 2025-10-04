@@ -2,11 +2,18 @@ import { ArrowTwo } from '@/svg';
 import React from 'react';
 
 // Import brand logos
-import brandIcon1 from '../../../public/assets/img/about-us/about-us/brand/icon-1.png';
-import brandIcon2 from '../../../public/assets/img/about-us/about-us/brand/icon-2.png';
-import brandIcon3 from '../../../public/assets/img/about-us/about-us/brand/icon-3.png';
-import brandIcon4 from '../../../public/assets/img/about-us/about-us/brand/icon-4.png';
-import brandIcon5 from '../../../public/assets/img/about-us/about-us/brand/icon-5.png';
+// import brandIcon1 from '../../../public/assets/img/about-us/about-us/brand/icon-1.png';
+import brandIcon1 from '../../../public/assets/img/non-theme/portfolio/client_1.png';
+// import brandIcon2 from '../../../public/assets/img/about-us/about-us/brand/icon-2.png';
+import brandIcon2 from '../../../public/assets/img/non-theme/portfolio/client_2.png';
+// import brandIcon3 from '../../../public/assets/img/about-us/about-us/brand/icon-3.png';
+import brandIcon3 from '../../../public/assets/img/non-theme/portfolio/client_3.png';
+// import brandIcon4 from '../../../public/assets/img/about-us/about-us/brand/icon-4.png';
+import brandIcon4 from '../../../public/assets/img/non-theme/portfolio/client_4.png';
+// import brandIcon5 from '../../../public/assets/img/about-us/about-us/brand/icon-5.png';
+import brandIcon5 from '../../../public/assets/img/non-theme/portfolio/client_5.png';
+import brandIcon6 from '../../../public/assets/img/non-theme/portfolio/client_6.png';
+import brandIcon7 from '../../../public/assets/img/non-theme/portfolio/client_7.png';
 import Image from 'next/image';
 
 interface brandPropsType {
@@ -22,7 +29,9 @@ const CreativeAgencyBrand: React.FC<brandPropsType> = ({ titleClass, spacingCls=
         { id: 2, image: brandIcon2, alt: "Brand 2" },
         { id: 3, image: brandIcon3, alt: "Brand 3" },
         { id: 4, image: brandIcon4, alt: "Brand 4" },
-        { id: 5, image: brandIcon5, alt: "Brand 5" }
+        { id: 5, image: brandIcon5, alt: "Brand 5" },
+        { id: 6, image: brandIcon6, alt: "Brand 6" },
+        { id: 7, image: brandIcon7, alt: "Brand 7" }
     ];
 
     // Duplicate the array to create infinite loop effect

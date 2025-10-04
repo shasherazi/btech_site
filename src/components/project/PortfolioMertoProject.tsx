@@ -24,16 +24,13 @@ const PortfolioMertoProject = () => {
                         <div className="col-xl-3 col-lg-3 col-md-3">
                             <div className="tp-portfolio-metro-social text-md-end pb-50">
                                 <div>
-                                    <Link href="#">Linkedin</Link>
+                                    <Link href="https://www.linkedin.com/company/btech-group/">Linkedin</Link>
                                 </div>
                                 <div>
-                                    <Link href="#">Instagram</Link>
+                                    <Link href="https://www.instagram.com/b_tech_group">Instagram</Link>
                                 </div>
                                 <div>
-                                    <Link href="#">Dribbble</Link>
-                                </div>
-                                <div>
-                                    <Link href="#">Behance</Link>
+                                    <Link href="https://x.com/B_Tech_Group">Twitter</Link>
                                 </div>
                             </div>
                         </div>

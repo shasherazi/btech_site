@@ -45,7 +45,7 @@ const DesignAgencyFooter = ({ spacingCls = "" }) => {
                                             <div className="design-footer-widget design-footer-col-2">
                                                 <h4 className="design-footer-widget-title sm">Call us</h4>
                                                 <div className="design-footer-widget-info">
-                                                    <Link className="tp-line-white" href="tel:+(213)555-8573">+(213) 555-8573</Link>
+                                                    <Link href="tel:+(847) 737-7065">+(847) 737-7065</Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -53,15 +53,15 @@ const DesignAgencyFooter = ({ spacingCls = "" }) => {
                                             <div className="design-footer-widget design-footer-col-3">
                                                 <h4 className="design-footer-widget-title sm">Drop us a line</h4>
                                                 <div className="design-footer-widget-info">
-                                                    <Link className="tp-line-white" href="mailto:inquiry@agntix.com">inquiry@agntix.com</Link>
+                                                    <Link href="mailto:Info@btech-group.com">Info@btech-group.com</Link>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-xl-4">
                                             <div className="design-footer-widget design-footer-col-4">
-                                                <h4 className="design-footer-widget-title sm">Skype</h4>
+                                                <h4 className="design-footer-widget-title sm">Instagram</h4>
                                                 <div className="design-footer-widget-info">
-                                                    <Link className="tp-line-white" href="#">agntix.agency</Link>
+                                                    <Link className="tp-line-white" href="https://www.linkedin.com/company/btech-group/">@btech-group</Link>
                                                 </div>
                                             </div>
                                         </div>
