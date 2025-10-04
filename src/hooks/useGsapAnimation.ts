@@ -759,7 +759,7 @@ export function portfolioProjectAnimation() {
 
 // text Effects for footer title
 export const randChar = (): string => {
-  const chars = "hello@gmail.com";
+  const chars = "Info@btech-group.com";
   return chars[Math.floor(Math.random() * chars.length)];
 };
 

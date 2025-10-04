@@ -9,11 +9,16 @@ import team7 from "../../public/assets/img/home-03/team/team-3.jpg";
 import team8 from "../../public/assets/img/home-03/team/team-4.jpg";
 
 // Import all team images for about us page
-import team15 from '../../public/assets/img/about-us/about-us-4/team/team-1.jpg';
-import team16 from '../../public/assets/img/about-us/about-us-4/team/team-2.jpg';
-import team17 from '../../public/assets/img/about-us/about-us-4/team/team-3.jpg';
-import team18 from '../../public/assets/img/about-us/about-us-4/team/team-4.jpg';
-import team19 from '../../public/assets/img/about-us/about-us-4/team/team-5.jpg';
+// import team15 from '../../public/assets/img/about-us/about-us-4/team/team-1.jpg';
+import team15 from '../../public/assets/img/non-theme/about/team1.jpeg';
+// import team16 from '../../public/assets/img/about-us/about-us-4/team/team-2.jpg';
+import team16 from '../../public/assets/img/non-theme/about/team2.jpeg';
+// import team17 from '../../public/assets/img/about-us/about-us-4/team/team-3.jpg';
+import team17 from '../../public/assets/img/non-theme/about/team3.jpeg';
+// import team18 from '../../public/assets/img/about-us/about-us-4/team/team-4.jpg';
+import team18 from '../../public/assets/img/non-theme/about/team4.jpeg';
+// import team19 from '../../public/assets/img/about-us/about-us-4/team/team-5.jpg';
+import team19 from '../../public/assets/img/non-theme/about/team5.jpeg';
 
 const teamMembersData: TeamMember[] = [
   {
@@ -198,14 +203,14 @@ const teamMembersData: TeamMember[] = [
   {
     id: 19,
     image: team18,
-    name: 'James',
+    name: 'Oliver',
     position: 'Developer',
     link: '/team-details-light'
   },
   {
     id: 20,
     image: team19,
-    name: 'Oliver',
+    name: 'James',
     position: 'Developer',
     link: '/team-details-light'
   },

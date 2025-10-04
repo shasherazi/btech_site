@@ -1,4 +1,4 @@
-import { CrossIcon, CrossIconTwo, DribbleTwo, InstagramSvg, TwitterTwo } from "@/svg";
+import { CrossIcon, CrossIconTwo, DribbleTwo, FacebookTwo, InstagramSvg, InstagramTwo, TwitterTwo } from "@/svg";
 import logoWhite from "../../../public/assets/img/logo/logo-white.png";
 import logoBlack from "../../../public/assets/img/logo/logo-black.png";
 import MobileMenus from "../../layouts/subComponents/MobileMenus";
@@ -78,24 +78,30 @@ const MobileOffcanvas: React.FC<IProps> = (
                         <h4 className="tp-offcanvas-2-right-info-title">Get In Touch</h4>
                         <div className="tp-offcanvas-2-right-info-item">
                             <label className="mb-10">Phone</label>
-                            <Link className="tp-line-white" href="tel:42345678910">+4 (234) 567 8910</Link>
+                            <Link className="tp-line-white" href="tel:+(847)737-7065">(847) 737-7065</Link>
                         </div>
                         <div className="tp-offcanvas-2-right-info-item">
                             <label className="mb-10">Email</label>
-                            <Link className="tp-line-white" href="mailto:hello@gmail.com">hello@gmail.com</Link>
+                            <Link className="tp-line-white" href="mailto:Info@btech-group.com">Info@btech-group.com</Link>
                         </div>
                         <div className="tp-offcanvas-2-right-info-item">
                             <label className="mb-10">Address</label>
-                            <Link className="tp-line-white" href="https://www.google.com.bd/maps/@23.7806365,90.4193257,12z?entry=ttu&g_ep=EgoyMDI1MDQwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
-                                602 Elgin St. Celina, Delaware <br /> 1009
+                            <Link className="tp-line-white" href="https://www.google.com/maps/dir//1900+Hassell+Rd,+Hoffman+Estates,+IL+60169,+United+States/@42.0692932,-88.2816106,11z/data=!4m8!4m7!1m0!1m5!1m1!1s0x880fa7d835f95247:0x3079d2dbc218d58d!2m2!1d-88.1248804!2d42.0643527?entry=ttu&g_ep=EgoyMDI1MDkzMC4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                Hoffman Estates, IL
                             </Link>
                         </div>
                         <div className="tp-offcanvas-2-right-info-item">
                             <label className="mb-15">Follow us</label>
                             <div className="tp-offcanvas-2-right-social">
-                                <Link href="#"><DribbleTwo /></Link>{" "}
-                                <Link href="#"><TwitterTwo /></Link>{" "}
-                                <Link href="#"><InstagramSvg /></Link>
+                                <Link href="https://www.facebook.com/BtechGroupOfficial?mibextid=wwXIfr&rdid=as3zkCMiu2A7N4VU&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1B8JsuSdzL%2F%3Fmibextid%3DwwXIfr">
+                                    <span><FacebookTwo /></span>
+                                </Link>{" "}
+                                <Link href="https://x.com/B_Tech_Group">
+                                    <span><TwitterTwo /></span>
+                                </Link>{" "}
+                                <Link href="https://www.instagram.com/b_tech_group/?igsh=MTQ2dzRpaXJrMjFhdQ%3D%3D">
+                                    <span><InstagramTwo /></span>
+                                </Link>
                             </div>
                         </div>
                     </div>

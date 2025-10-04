@@ -30,7 +30,7 @@ const HomeMainFooter:React.FC<IHomeMainFooter> = ({bgColor, buttonCls, quikLinkC
                                     <ul>
                                         <li><Link href="#">About</Link></li>{" "}
                                         <li><Link href="#">Who we are</Link></li>{" "}
-                                        <li><Link href="#">Services</Link></li>{" "}
+                                        <li><Link href="/service-1-light">Services</Link></li>{" "}
                                         <li><Link href="#">Projects</Link></li>{" "}
                                         
                                     </ul>
@@ -45,7 +45,7 @@ const HomeMainFooter:React.FC<IHomeMainFooter> = ({bgColor, buttonCls, quikLinkC
                                     <Link href="tel:+(847) 737-7065">(847) 737-7065</Link>
                                 </div>
                                 <div className="tp-footer-widget-info">
-                                    <Link href="https://www.google.com/maps/" target="_blank"> Hoffman Estates, IL
+                                    <Link href="https://www.google.com/maps/dir//1900+Hassell+Rd,+Hoffman+Estates,+IL+60169,+United+States/@42.0692932,-88.2816106,11z/data=!4m8!4m7!1m0!1m5!1m1!1s0x880fa7d835f95247:0x3079d2dbc218d58d!2m2!1d-88.1248804!2d42.0643527?entry=ttu&g_ep=EgoyMDI1MDkzMC4wIKXMDSoASAFQAw%3D%3D" target="_blank"> Hoffman Estates, IL
                                     
                                     </Link>
                                 </div>

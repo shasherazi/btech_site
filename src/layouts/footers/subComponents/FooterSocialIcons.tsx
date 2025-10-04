@@ -1,4 +1,4 @@
-import { DribbleTwo, FacebookSvg, FacebookTwo, InstagramSvg, InstagramTwo, LinkedinSvg, TwitterSvg, TwitterTwo } from '@/svg';
+import { FacebookSvg, FacebookTwo, InstagramSvg, InstagramTwo, LinkedinSvg, TwitterSvg, TwitterTwo } from '@/svg';
 import Link from 'next/link';
 import React from 'react';
 
@@ -10,9 +10,6 @@ export const FooterSocialIcons = ({ className }: { className: string }) => {
             </Link>{" "}
             <Link href="https://x.com/B_Tech_Group">
                 <span><TwitterTwo /></span>
-            </Link>{" "}
-            <Link href="#">
-                <span><DribbleTwo /></span>
             </Link>{" "}
             <Link href="https://www.instagram.com/b_tech_group/?igsh=MTQ2dzRpaXJrMjFhdQ%3D%3D">
                 <span><InstagramTwo /></span>

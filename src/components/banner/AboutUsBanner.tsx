@@ -1,4 +1,5 @@
-import aboutThumb from '../../../public/assets/img/about-us/about-us-4/about-us-4-thumb-1.jpg';
+// import aboutThumb from '../../../public/assets/img/about-us/about-us-4/about-us-4-thumb-1.jpg';
+import aboutThumb from '../../../public/assets/img/non-theme/about/hero.jpeg';
 import Image from 'next/image';
 import React from 'react';
 

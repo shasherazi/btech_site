@@ -1,11 +1,17 @@
-import offcanvas1 from "../../../public/assets/img/offcanvas/offcanvas-1.jpg";
-import offcanvas2 from "../../../public/assets/img/offcanvas/offcanvas-2.jpg";
-import offcanvas3 from "../../../public/assets/img/offcanvas/offcanvas-3.jpg";
-import offcanvas4 from "../../../public/assets/img/offcanvas/offcanvas-4.jpg";
-import logoBlack from '../../../public/assets/img/logo/logo-black.png';
-import logoWhite from '../../../public/assets/img/logo/logo-white.png';
+// import offcanvas1 from "../../../public/assets/img/offcanvas/offcanvas-1.jpg";
+import offcanvas1 from "../../../public/assets/img/non-theme/about/product1.jpeg";
+// import offcanvas2 from "../../../public/assets/img/offcanvas/offcanvas-2.jpg";
+import offcanvas2 from "../../../public/assets/img/non-theme/about/product2.jpeg";
+// import offcanvas3 from "../../../public/assets/img/offcanvas/offcanvas-3.jpg";
+import offcanvas3 from "../../../public/assets/img/non-theme/about/product3.jpeg";
+// import offcanvas4 from "../../../public/assets/img/offcanvas/offcanvas-4.jpg";
+import offcanvas4 from "../../../public/assets/img/non-theme/about/product4.jpeg";
+// import logoBlack from '../../../public/assets/img/logo/logo-black.png';
+import logoBlack from '../../../public/assets/img/non-theme/black-logo.png';
+// import logoWhite from '../../../public/assets/img/logo/logo-white.png';
+import logoWhite from '../../../public/assets/img/non-theme/white-logo.png';
 import PhotoProviderWrapper from '../shared/PhotoProviderWrapper';
-import { CrossIconTwo, DribbleTwo, InstagramSvg } from '@/svg';
+import { CrossIconTwo, DribbleTwo, FacebookTwo, InstagramSvg, InstagramTwo, TwitterTwo } from '@/svg';
 import MainMobileMenu from "../../layouts/subComponents/MainMobileMenu";
 import { BehanceTwoSvg } from "@/svg/social-icons/Behance";
 import { YouTubeSvg } from "@/svg/social-icons/YouTube";
@@ -50,7 +56,7 @@ const OffCanvasPanel: React.FC<IProps> = ({ openOffcanvas, setOpenOffcanvas }) =
                     <div className="tp-offcanvas-main">
                         <div className="tp-offcanvas-content d-none d-xl-block">
                             <h3 className="tp-offcanvas-title">Hello There!</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                            <p>Driven by a passion for innovation, we specialize in delivering top-quality design solutions</p>
                         </div>
                         <div className="tp-offcanvas-menu d-xl-none">
                             <nav><MainMobileMenu /></nav>
@@ -73,26 +79,29 @@ const OffCanvasPanel: React.FC<IProps> = ({ openOffcanvas, setOpenOffcanvas }) =
                         <div className="tp-offcanvas-contact">
                             <h3 className="tp-offcanvas-title sm">Information</h3>
                             <ul>
-                                <li><Link href="tel:1245654">+ 4 20 7700 1007</Link></li>
-                                <li><Link href="mailto:hello@diego.com">hello@diego.com</Link></li>
-                                <li><Link href="#">Avenue de Roma 158b, Lisboa</Link></li>
+                                <li><Link href="mailto:Info@btech-group.com">Info@btech-group.com</Link></li>
+                                <li> <Link href="tel:+(847) 737-7065">(847) 737-7065</Link> </li>
+                                <li>
+                                    <Link href="https://www.google.com/maps/dir//1900+Hassell+Rd,+Hoffman+Estates,+IL+60169,+United+States/@42.0692932,-88.2816106,11z/data=!4m8!4m7!1m0!1m5!1m1!1s0x880fa7d835f95247:0x3079d2dbc218d58d!2m2!1d-88.1248804!2d42.0643527?entry=ttu&g_ep=EgoyMDI1MDkzMC4wIKXMDSoASAFQAw%3D%3D" target="_blank"> Hoffman Estates, IL
+                                    </Link>
+</li>
                             </ul>
                         </div>
                         <div className="tp-offcanvas-social">
                             <h3 className="tp-offcanvas-title sm">Follow Us</h3>
                             <ul>
                                 <li>
-                                    <Link href="#"><InstagramSvg /></Link>
-                                </li>
+                                    <Link href="https://www.facebook.com/BtechGroupOfficial?mibextid=wwXIfr&rdid=as3zkCMiu2A7N4VU&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1B8JsuSdzL%2F%3Fmibextid%3DwwXIfr">
+                                        <span><FacebookTwo /></span>
+                                    </Link></li>
                                 <li>
-                                    <Link href="#"> <DribbleTwo /></Link>
-                                </li>
+                                    <Link href="https://x.com/B_Tech_Group">
+                                        <span><TwitterTwo /></span>
+                                    </Link></li>
                                 <li>
-                                    <Link href="#"><BehanceTwoSvg /></Link>
-                                </li>
-                                <li>
-                                    <Link href="#"><YouTubeSvg /></Link>
-                                </li>
+                                    <Link href="https://www.instagram.com/b_tech_group/?igsh=MTQ2dzRpaXJrMjFhdQ%3D%3D">
+                                        <span><InstagramTwo /></span>
+                                    </Link></li>
                             </ul>
                         </div>
                     </div>
