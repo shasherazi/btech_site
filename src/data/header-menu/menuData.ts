@@ -17,9 +17,8 @@ const headerMenuData:MenuItem[] = [
         pluseIncon: true,
 
         megaMenu: [
-          { title: "Web Application Development", link: "/about-me-light" },
+          { title: "Web And Mobile Development", link: "/service-details-light" },
           { title: "Enterprise Software Development", link: "/about-us-light" },
-          { title: "Mobile App Development", link: "/about-us-mobile" },
           { title: "E-commerce Development", link: "/about-modern-light" },
           { title: "Artificial Intelligence", link: "/about-creative-light" },
           { title: "Cyber Security", link: "/about-startup-light" },

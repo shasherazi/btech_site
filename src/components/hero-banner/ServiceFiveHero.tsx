@@ -29,9 +29,7 @@ const ServiceFiveHero = () => {
                     <div className="col-lg-4"></div>
                     <div className="col-lg-8">
                         <div className="tp-service-5-text tp_fade_anim" data-delay=".5">
-                            <p>This section explores a common challenge developer with face <br />
-                                such as cross platform compatibility make within performance <br />
-                                optimization and user experience</p>
+                            <p>Explore solutions for creating responsive and efficient web and mobile applications that work seamlessly across all devices</p>
                         </div>
                         <div className="tp-service-5-list tp_fade_anim " data-delay=".7">
                             <ul>

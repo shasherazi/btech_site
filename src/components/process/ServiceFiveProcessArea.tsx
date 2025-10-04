@@ -1,4 +1,5 @@
-import serviceThumb from '../../../public/assets/img/service/service-4-thumb-1.png';
+// import serviceThumb from '../../../public/assets/img/service/service-4-thumb-1.png';
+import serviceThumb from '../../../public/assets/img/non-theme/webdev/process.jpeg';
 import { useVideoModal } from '@/provider/VideoProvider';
 import { ArrowTwenty } from '@/svg/ArrowIcons';
 import { VideoPlayIcon } from '@/svg';
@@ -53,18 +54,11 @@ const ServiceFiveProcessArea = () => {
                     </div>
                     <div className="col-lg-8">
                         <div className="tp-service-4-process-wrapper pl-70 p-relative">
-                            <p className="pl-200 mb-50">Our design system energy comes from a natural source <br />
-                                such as wind power, water power, or the heat of the sun. <br />
-                                They are more friendly.</p>
+                            <p className="pl-200 mb-50">Our design process thrives on creativity and collaboration, ensuring each project is unique and tailored to your specific goals and audience.</p>
                             <div className="tp-service-4-process-thumb fix">
                                 <div className="tp_img_reveal">
                                     <Image src={serviceThumb} alt="service thumb" />
                                 </div>
-                            </div>
-                            <div className="tp-service-4-process-video">
-                                <button onClick={() => playVideo("VCPGMjCW0is")} className="popup-video dgm-testimonial-playbtn">
-                                    <span><VideoPlayIcon /></span>
-                                </button>
                             </div>
                         </div>
                     </div>

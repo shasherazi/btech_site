@@ -1,4 +1,5 @@
-import bannerImg from '../../../public/assets/img/service/service-5/service-5-banner.jpg';
+// import bannerImg from '../../../public/assets/img/service/service-5/service-5-banner.jpg';
+import bannerImg from '../../../public/assets/img/non-theme/webdev/hero.jpeg';
 import Image from 'next/image';
 import React from 'react';
 
