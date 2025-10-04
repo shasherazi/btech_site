@@ -54,7 +54,7 @@ const ContactHero = () => {
                                             </div>
                                             <div className="ar-about-funfact-item-content">
                                                 <p> Call Us Directly</p>
-                                                <Link className="tp-line-white" href="tel:2246767430">+(1) 224 676 7430</Link>
+                                                <Link href="tel:+(847) 737-7065">(847) 737-7065</Link>
                                             </div>
                                         </div>
                                         <div className="ar-about-funfact-item d-flex align-items-center">
@@ -63,7 +63,7 @@ const ContactHero = () => {
                                             </div>
                                             <div className="ar-about-funfact-item-content">
                                                 <p>Need Support?</p>
-                                                <Link className="tp-line-white" href="mailto:agntixs@studio.com">agntixs@studio.com</Link>
+                                                <Link href="mailto:Info@btech-group.com">Info@btech-group.com</Link>
                                             </div>
                                         </div>
                                         <div className="ar-about-funfact-item d-flex align-items-center">

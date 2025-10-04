@@ -43,7 +43,6 @@ const ContactMain = () => {
                         <ContactHero />
                         <InnerMapArea />
                         <ContactFormArea />
-                        <ContactLocationArea />
                     </main>
                     <HomeMainFooter />
                 </div>
