@@ -1,7 +1,7 @@
 // import videoImgOne from "../../../public/assets/img/home-01/video/video-1.jpg";
 import videoImgOne from "../../../public/assets/img/non-theme/video1.jpeg";
 // import videoImgTwo from "../../../public/assets/img/home-01/video/video-3.jpg";
-import videoImgTwo from "../../../public/assets/img/non-theme/video2.jpg";
+import videoImgTwo from "../../../public/assets/img/non-theme/video2.jpeg";
 // import videoImgThree from "../../../public/assets/img/home-01/video/video-4.jpg";
 import videoImgThree from "../../../public/assets/img/non-theme/video3.jpeg";
 // import videoImgFour from "../../../public/assets/img/home-01/video/video-5.jpg";

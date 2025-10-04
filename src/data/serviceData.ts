@@ -3,7 +3,7 @@ import { BrandingIcon, BusinessConsultationIcon, BusinessGrowthIcon, ChartIcon, 
 // import service1 from "../../public/assets/img/home-01/service/service-1.jpg";
 import service1 from "../../public/assets/img/non-theme/web_design.png";
 // import service2 from "../../public/assets/img/home-01/service/service-2.jpg";
-import service2 from "../../public/assets/img/non-theme/product_design.jpeg";
+import service2 from "../../public/assets/img/non-theme/ai.jpeg";
 // import service3 from "../../public/assets/img/home-01/service/service-3.jpg";
 import service3 from "../../public/assets/img/non-theme/web_dev.jpeg";
 // import service4 from "../../public/assets/img/home-01/service/service-4.jpg";
@@ -62,9 +62,9 @@ const servicesData: servicesDT[] = [
     },
     {
         id: 2,
-        title: "Product Design",
+        title: "AI",
         image: service2,
-        description: "Our product design services focus on creating intuitive and aesthetically pleasing products that resonate with your audience and stand out in the market.",
+        description: "Our artificial intelligence services harness cutting-edge technology to deliver smart solutions that enhance efficiency and drive innovation. From machine learning models to AI-driven insights, we tailor our expertise to meet your unique business needs.",
         categories: ["UX Design", "User Testing", "Product Prototype", "Mobile UI", "Software UI design", "Web app design"],
         link: "/service-details-light",
     },

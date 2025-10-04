@@ -74,24 +74,24 @@ import portfolioThumb25 from '../../public/assets/img/home-05/project/project-5.
 export const projectsData: projectsDT[] = [
     {
         id: 1,
-        title: "Acme Studio",
+        title: "Cloud Integration",
         image: project1,
-        categories: ["Product Design", "Branding", "Creative"],
+        categories: ["Web Development", "Cloud Services", "Digital Strategy"],
         link: "/portfolio-details-gallery-light",
     },
     {
         id: 2,
-        title: "Digital Farming",
+        title: "E-Commerce Platform Development",
         image: project4,
-        categories: ["Product Design", "Branding", "Creative"],
+        categories: ["Web Development", "E-Commerce", "UI/UX Design"],
         link: "/portfolio-details-gallery-light",
 
     },
     {
         id: 3,
-        title: "Grace Clinic",
+        title: "Innovative Web Portals",
         image: project2,
-        categories: ["Creative", "Branding", "Development"],
+        categories: ["Web Design", "User Experience", "Digital Strategy"],
         link: "/portfolio-details-gallery-light",
     },
     {
@@ -103,9 +103,9 @@ export const projectsData: projectsDT[] = [
     },
     {
         id: 5,
-        title: "Smart Cities",
+        title: "Mobile App Development",
         image: project3,
-        categories: ["Product Design", "Branding", "Creative"],
+        categories: ["Mobile Development", "User Experience", "App Design"],
         link: "/portfolio-details-gallery-light",
     },
     {
