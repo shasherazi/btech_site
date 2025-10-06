@@ -53,12 +53,12 @@ import service22 from '../../public/assets/img/non-theme/services/branding8.jpeg
 const servicesData: servicesDT[] = [
     //Home main services data start
     {
-        id: 1,
-        title: "Web Design",
-        image: service1,
-        description: "Whether you need stunning visuals for your website, captivating graphics for your marketing materials, or innovative UI/UX designs for your app, our team of experts is here to turn your vision into reality.",
-        categories: ["UX Design", "User Testing", "Motion Design", "Product Prototype"],
-        link: "/service-details-light",
+        "id": 1,
+        "title": "UI/UX Design",
+        "image": service1,
+        "description": "Elevate your digital presence with our UI/UX design services, where creativity meets functionality. Our team crafts intuitive and visually stunning interfaces that enhance user engagement and satisfaction, tailored specifically to resonate with your brand’s unique identity.",
+        "categories": ["User Research", "Wireframing", "Interaction Design", "Visual Design"],
+        "link": "/service/uiUxDesign"
     },
     {
         id: 2,
@@ -66,7 +66,7 @@ const servicesData: servicesDT[] = [
         image: service2,
         description: "Our artificial intelligence services harness cutting-edge technology to deliver smart solutions that enhance efficiency and drive innovation. From machine learning models to AI-driven insights, we tailor our expertise to meet your unique business needs.",
         categories: ["UX Design", "User Testing", "Product Prototype", "Mobile UI", "Software UI design", "Web app design"],
-        link: "/service-details-light",
+        link: "/service/ai"
     },
     {
         id: 3,
@@ -74,7 +74,7 @@ const servicesData: servicesDT[] = [
         image: service3,
         description: "From website development and e-commerce platforms to custom software and mobile apps, our development team has the expertise to bring your ideas to life.",
         categories: ["UX Design", "Frontend", "Backend", "E-commerce", "No Code / Low Code"],
-        link: "/service-details-light",
+        link: "/service/webAndMobile"
     },
     {
         id: 4,

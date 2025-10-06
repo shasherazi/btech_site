@@ -1,6 +1,26 @@
-import webDevBannerImage1 from "../../public/assets/img/non-theme/webdev/hero.jpeg";
-import webDevImage2 from "../../public/assets/img/non-theme/webdev/process.jpeg";
-import webDevImage3 from "../../public/assets/img/non-theme/webdev/benefits.jpeg";
+import webDevBannerImage1 from "../../public/assets/img/non-theme/services/webdev/hero.jpeg";
+import webDevImage2 from "../../public/assets/img/non-theme/services/webdev/process.jpeg";
+import webDevImage3 from "../../public/assets/img/non-theme/services/webdev/benefits.jpeg";
+
+import esdBannerImage1 from "../../public/assets/img/non-theme/services/esd/hero.jpeg";
+import esdImage2 from "../../public/assets/img/non-theme/services/esd/process.jpeg";
+import esdImage3 from "../../public/assets/img/non-theme/services/esd/benefits.jpeg";
+
+import ecomBannerImage1 from "../../public/assets/img/non-theme/services/ecom/hero.jpeg";
+import ecomImage2 from "../../public/assets/img/non-theme/services/ecom/process.jpeg";
+import ecomImage3 from "../../public/assets/img/non-theme/services/ecom/benefits.jpeg";
+
+import aiBannerImage1 from "../../public/assets/img/non-theme/services/ai/hero.jpeg";
+import aiImage2 from "../../public/assets/img/non-theme/services/ai/process.jpeg";
+import aiImage3 from "../../public/assets/img/non-theme/services/ai/benefits.jpeg";
+
+import cyberSecBannerImage1 from "../../public/assets/img/non-theme/services/cyberSec/hero.jpeg";
+import cyberSecImage2 from "../../public/assets/img/non-theme/services/cyberSec/process.jpeg";
+import cyberSecImage3 from "../../public/assets/img/non-theme/services/cyberSec/benefits.jpeg";
+
+import uiuxBannerImage1 from "../../public/assets/img/non-theme/services/uiux/hero.jpeg";
+import uiuxImage2 from "../../public/assets/img/non-theme/services/uiux/process.jpeg";
+import uiuxImage3 from "../../public/assets/img/non-theme/services/uiux/benefits.jpeg";
 import { StaticImageData } from "next/image";
 
 export interface NonThemeServiceData {
@@ -50,7 +70,7 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
     },
     ai: {
         smallHeading: "AI SOLUTIONS",
-        bigHeading: "Artificial Intelligence",
+        bigHeading: "Integrated Artificial Intelligence",
         description: "Harness the power of AI to transform your business processes and gain deeper insights.",
         subServices: [
             "Machine Learning",
@@ -59,7 +79,7 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
             "Automation",
             "Predictive Models",
         ],
-        bannerImage: webDevBannerImage1,
+        bannerImage: aiBannerImage1,
         secondHeading: "Innovative AI Methodologies",
         secondDescription: "Our expertise in AI ensures the delivery of advanced solutions tailored to improve your business operations.",
         processSteps: [
@@ -68,10 +88,10 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
             { stepNumber: "03", stepDescription: "Integration & Testing" },
             { stepNumber: "04", stepDescription: "Deployment & Monitoring" },
         ],
-        secondImage: webDevImage2,
+        secondImage: aiImage2,
         thirdHeading: "AI Driven Benefits",
         thirdDescription: "Our AI solutions drive efficiency and innovation, providing a competitive edge and unlocking new opportunities.",
-        thirdImage: webDevImage3,
+        thirdImage: aiImage3,
     },
     enterpriseSoftwareDevelopment: {
         smallHeading: "ENTERPRISE SOLUTIONS",
@@ -85,7 +105,7 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
             "Cloud Services",
             "Legacy System Modernization",
         ],
-        bannerImage: webDevBannerImage1,
+        bannerImage: esdBannerImage1,
         secondHeading: "Transforming Business with Enterprise Solutions",
         secondDescription: "Our specialized approach ensures the creation of innovative and customized enterprise solutions through comprehensive research and a deep understanding of your business needs.",
         processSteps: [
@@ -94,10 +114,10 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
             { stepNumber: "03", stepDescription: "Development and Integration" },
             { stepNumber: "04", stepDescription: "Testing and Deployment" },
         ],
-        secondImage: webDevImage2,
+        secondImage: esdImage2,
         thirdHeading: "Enterprise Benefits",
         thirdDescription: "Our enterprise solutions enhance operational efficiency, streamline processes, and enable data-driven decision-making, empowering your business to achieve its strategic objectives.",
-        thirdImage: webDevImage3,
+        thirdImage: esdImage3,
     },
     eCommerce: {
         smallHeading: "ECOMMERCE SOLUTIONS",
@@ -111,7 +131,7 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
             "SEO and Digital Marketing",
             "Multi-language and Currency Support",
         ],
-        bannerImage: webDevBannerImage1,
+        bannerImage: ecomBannerImage1,
         secondHeading: "Enhancing Online Retail Experience",
         secondDescription: "Our expert team delivers user-friendly and feature-rich e-commerce platforms that provide seamless shopping experiences and drive customer loyalty.",
         processSteps: [
@@ -120,10 +140,10 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
             { stepNumber: "03", stepDescription: "Development and Customization" },
             { stepNumber: "04", stepDescription: "Launch and Optimization" },
         ],
-        secondImage: webDevImage2,
+        secondImage: ecomImage2,
         thirdHeading: "E-Commerce Benefits",
         thirdDescription: "We help businesses leverage e-commerce platforms to reach a global audience, increase revenue, and build brand visibility in the competitive online marketplace.",
-        thirdImage: webDevImage3,
+        thirdImage: ecomImage3,
     },
     cyberSecurity: {
         smallHeading: "CYBER SECURITY",
@@ -137,7 +157,7 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
             "Security Compliance",
             "Incident Management",
         ],
-        bannerImage: webDevBannerImage1,
+        bannerImage: cyberSecBannerImage1,
         secondHeading: "Building a Secure Digital Fortress",
         secondDescription: "Our cybersecurity experts employ cutting-edge technology and best practices to ensure the highest level of protection for your organization's networks and data.",
         processSteps: [
@@ -146,10 +166,10 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
             { stepNumber: "03", stepDescription: "Continuous Monitoring" },
             { stepNumber: "04", stepDescription: "Incident Response" },
         ],
-        secondImage: webDevImage2,
+        secondImage: cyberSecImage2,
         thirdHeading: "Cybersecurity Benefits",
         thirdDescription: "Our solutions help prevent data breaches, mitigate risks, and ensure compliance, providing peace of mind and a secure digital environment for your business.",
-        thirdImage: webDevImage3,
+        thirdImage: cyberSecImage3,
     },
     uiUxDesign: {
         smallHeading: "UI/UX DESIGN",
@@ -163,7 +183,7 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
             "Usability Testing",
             "Responsive Design",
         ],
-        bannerImage: webDevBannerImage1,
+        bannerImage: uiuxBannerImage1,
         secondHeading: "Crafting User-Centric Designs",
         secondDescription: "We combine user research and creative expertise to deliver designs that not only look stunning but also offer seamless functionality across devices.",
         processSteps: [
@@ -172,9 +192,9 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
             { stepNumber: "03", stepDescription: "Prototyping and Testing" },
             { stepNumber: "04", stepDescription: "Final Design and Delivery" },
         ],
-        secondImage: webDevImage2,
+        secondImage: uiuxImage2,
         thirdHeading: "UI/UX Design Benefits",
         thirdDescription: "Our UI/UX designs improve user satisfaction by creating intuitive interfaces, leading to higher engagement, loyalty, and conversion rates.",
-        thirdImage: webDevImage3,
+        thirdImage: uiuxImage3,
     },
 };

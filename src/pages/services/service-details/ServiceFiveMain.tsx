@@ -49,7 +49,6 @@ const ServiceFiveMain = (data:NonThemeServiceData) => {
                         <ServiceFiveProcessArea {...data}/>
                         <ServiceBenifit {...data}/>
                         <ServiceFeature {...data}/>
-                        <ServiceDetailsPrice />
                     </main>
                     <HomeMainFooter bgColor='#F6F6F9' quikLinkCls="" socialBtnCls='social-btn-cls'/>
                 </div>

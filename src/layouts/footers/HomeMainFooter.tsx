@@ -28,10 +28,10 @@ const HomeMainFooter:React.FC<IHomeMainFooter> = ({bgColor, buttonCls, quikLinkC
                                 <h4 className="tp-footer-widget-title-sm pre mb-25">Quick links</h4>
                                 <div className="tp-footer-widget-menu">
                                     <ul>
-                                        <li><Link href="#">About</Link></li>{" "}
-                                        <li><Link href="#">Who we are</Link></li>{" "}
+                                        <li><Link href="/about-us-light">About</Link></li>{" "}
+                                        <li><Link href="/about-us-light">Who we are</Link></li>{" "}
                                         <li><Link href="/service-1-light">Services</Link></li>{" "}
-                                        <li><Link href="#">Projects</Link></li>{" "}
+                                        <li><Link href="/portfolio-metro-light">Projects</Link></li>{" "}
                                         
                                     </ul>
                                 </div>
