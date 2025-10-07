@@ -1,5 +1,4 @@
 import { MenuItem } from "@/types/menu-d-t";
-import MegaMenuThumb from "../../../public/assets/img/menu/menu-1.png";
 
 const headerMenuData:MenuItem[] = [
   {
@@ -75,27 +74,10 @@ const headerMenuData:MenuItem[] = [
     hasDropdown: true,
     active: true,
     megaMenu: false,
-    children: true,
+    children: false,
     title: "Contact",
     pluseIncon: true,
     link: "/contact",
-    submenus: [
-      {
-        title: "Contact Me",
-        link: "/contact-me-light",
-        pluseIncon: false
-      },
-      {
-        title: "Contact Us",
-        link: "/contact-us-light",
-        pluseIncon: false
-      },
-      {
-        title: "Get In Touch",
-        link: "/contact",
-        pluseIncon: false
-      },
-    ]
   },
   {
     id: 3,
