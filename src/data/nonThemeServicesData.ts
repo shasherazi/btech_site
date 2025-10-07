@@ -21,6 +21,43 @@ import cyberSecImage3 from "../../public/assets/img/non-theme/services/cyberSec/
 import uiuxBannerImage1 from "../../public/assets/img/non-theme/services/uiux/hero.jpeg";
 import uiuxImage2 from "../../public/assets/img/non-theme/services/uiux/process.jpeg";
 import uiuxImage3 from "../../public/assets/img/non-theme/services/uiux/benefits.jpeg";
+
+import personalBrandingImage1 from "../../public/assets/img/non-theme/services/personalBranding/hero.jpeg";
+import personalBrandingImage2 from "../../public/assets/img/non-theme/services/personalBranding/process.jpeg";
+import personalBrandingImage3 from "../../public/assets/img/non-theme/services/personalBranding/benefits.jpeg";
+
+import corporateBrandingImage1 from "../../public/assets/img/non-theme/services/corporateBranding/hero.jpeg";
+import corporateBrandingImage2 from "../../public/assets/img/non-theme/services/corporateBranding/process.jpeg";
+import corporateBrandingImage3 from "../../public/assets/img/non-theme/services/corporateBranding/benefits.jpeg";
+
+import recruitmentAndStaffingImage1 from "../../public/assets/img/non-theme/services/recruitmentAndStaffing/hero.jpeg";
+import recruitmentAndStaffingImage2 from "../../public/assets/img/non-theme/services/recruitmentAndStaffing/process.jpeg";
+import recruitmentAndStaffingImage3 from "../../public/assets/img/non-theme/services/recruitmentAndStaffing/benefits.jpeg";
+
+import devopsAndAutomationImage1 from "../../public/assets/img/non-theme/services/devopsAndAutomation/hero.jpeg";
+import devopsAndAutomationImage2 from "../../public/assets/img/non-theme/services/devopsAndAutomation/process.jpeg";
+import devopsAndAutomationImage3 from "../../public/assets/img/non-theme/services/devopsAndAutomation/benefits.jpeg";
+
+import softwareArchitectureImage1 from "../../public/assets/img/non-theme/services/softwareArchitecture/hero.jpeg";
+import softwareArchitectureImage2 from "../../public/assets/img/non-theme/services/softwareArchitecture/process.jpeg";
+import softwareArchitectureImage3 from "../../public/assets/img/non-theme/services/softwareArchitecture/benefits.jpeg";
+
+import socialMediaMarketingImage1 from "../../public/assets/img/non-theme/services/socialMediaMarketing/hero.jpeg";
+import socialMediaMarketingImage2 from "../../public/assets/img/non-theme/services/socialMediaMarketing/process.jpeg";
+import socialMediaMarketingImage3 from "../../public/assets/img/non-theme/services/socialMediaMarketing/benefits.jpeg";
+
+import digitalMarketingImage1 from "../../public/assets/img/non-theme/services/digitalMarketing/hero.jpeg";
+import digitalMarketingImage2 from "../../public/assets/img/non-theme/services/digitalMarketing/process.jpeg";
+import digitalMarketingImage3 from "../../public/assets/img/non-theme/services/digitalMarketing/benefits.jpeg";
+
+import emailMarketingImage1 from "../../public/assets/img/non-theme/services/emailMarketing/hero.jpeg";
+import emailMarketingImage2 from "../../public/assets/img/non-theme/services/emailMarketing/process.jpeg";
+import emailMarketingImage3 from "../../public/assets/img/non-theme/services/emailMarketing/benefits.jpeg";
+
+import leadGenerationImage1 from "../../public/assets/img/non-theme/services/leadGeneration/hero.jpeg";
+import leadGenerationImage2 from "../../public/assets/img/non-theme/services/leadGeneration/process.jpeg";
+import leadGenerationImage3 from "../../public/assets/img/non-theme/services/leadGeneration/benefits.jpeg";
+
 import { StaticImageData } from "next/image";
 
 export interface NonThemeServiceData {
@@ -209,7 +246,7 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
             "Reputation Management",
             "Networking Tactics",
         ],
-        bannerImage: webDevBannerImage1,
+        bannerImage: personalBrandingImage1,
         secondHeading: "Building Your Personal Brand",
         secondDescription: "Our team collaborates with you to uncover your authentic voice, creating a personalized brand strategy that highlights your distinctive qualities and aligns with your aspirations.",
         secondPoints: [
@@ -218,10 +255,10 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
             { stepNumber: "03", stepDescription: "Content Development" },
             { stepNumber: "04", stepDescription: "Brand Launch" },
         ],
-        secondImage: webDevImage2,
+        secondImage: personalBrandingImage2,
         thirdHeading: "Personal Branding Benefits",
         thirdDescription: "Gain confidence and visibility with a well-defined personal brand that amplifies your presence and opens doors to new opportunities.",
-        thirdImage: webDevImage3,
+        thirdImage: personalBrandingImage3,
     },
     corporateBranding: {
         smallHeading: "CORPORATE BRANDING",
@@ -235,7 +272,7 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
             "Communication Strategy",
             "Stakeholder Engagement",
         ],
-        bannerImage: webDevBannerImage1,
+        bannerImage: corporateBrandingImage1,
         secondHeading: "Enhancing Corporate Image",
         secondDescription: "Our strategic approach to corporate branding ensures a consistent and memorable brand image, helping you build trust and loyalty among your customers.",
         secondPoints: [
@@ -244,10 +281,10 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
             { stepNumber: "03", stepDescription: "Strategic Implementation" },
             { stepNumber: "04", stepDescription: "Monitoring and Evolution" },
         ],
-        secondImage: webDevImage2,
+        secondImage: corporateBrandingImage2,
         thirdHeading: "Corporate Branding Benefits",
         thirdDescription: "Achieve market leadership and drive growth with a strong corporate brand that communicates your values and mission effectively.",
-        thirdImage: webDevImage3,
+        thirdImage: corporateBrandingImage3,
     },
     recruitmentAndStaffing: {
         smallHeading: "RECRUITMENT & STAFFING",
@@ -261,7 +298,7 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
             "HR Consulting",
             "Onboarding Support",
         ],
-        bannerImage: webDevBannerImage1,
+        bannerImage: recruitmentAndStaffingImage1,
         secondHeading: "Finding Your Perfect Match",
         secondDescription: "Our expert recruiters identify and attract highly skilled professionals, aligning them with your company's culture and needs for optimal performance.",
         secondPoints: [
@@ -270,10 +307,10 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
             { stepNumber: "03", stepDescription: "Candidate Selection" },
             { stepNumber: "04", stepDescription: "Successful Onboarding" },
         ],
-        secondImage: webDevImage2,
+        secondImage: recruitmentAndStaffingImage2,
         thirdHeading: "Recruitment Benefits",
         thirdDescription: "Build a dynamic workforce that drives innovation and growth, enhancing your competitive advantage in the industry.",
-        thirdImage: webDevImage3,
+        thirdImage: recruitmentAndStaffingImage3,
     },
     devopsAndAutomation: {
         smallHeading: "DEVOPS & AUTOMATION",
@@ -287,7 +324,7 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
             "Monitoring & Logging",
             "Deployment Pipelines",
         ],
-        bannerImage: webDevBannerImage1,
+        bannerImage: devopsAndAutomationImage1,
         secondHeading: "Accelerating Delivery and Innovation",
         secondDescription: "Our DevOps specialists streamline your operations, integrating best practices and cutting-edge tools to accelerate your digital transformation.",
         secondPoints: [
@@ -296,10 +333,10 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
             { stepNumber: "03", stepDescription: "Automation Implementation" },
             { stepNumber: "04", stepDescription: "Performance Monitoring" },
         ],
-        secondImage: webDevImage2,
+        secondImage: devopsAndAutomationImage2,
         thirdHeading: "DevOps Benefits",
         thirdDescription: "Achieve unprecedented agility and efficiency with a robust DevOps culture, significantly reducing time-to-market and enhancing product quality.",
-        thirdImage: webDevImage3,
+        thirdImage: devopsAndAutomationImage3,
     },
     softwareArchitecture: {
         smallHeading: "SOFTWARE ARCHITECTURE",
@@ -313,7 +350,7 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
             "Microservices",
             "Cloud-Native Architecture",
         ],
-        bannerImage: webDevBannerImage1,
+        bannerImage: softwareArchitectureImage1,
         secondHeading: "Building Future-Proof Systems",
         secondDescription: "Our architects combine strategic insight with technical expertise to develop sophisticated architectures that ensure long-term success and adaptability.",
         secondPoints: [
@@ -322,10 +359,10 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
             { stepNumber: "03", stepDescription: "Design Validation" },
             { stepNumber: "04", stepDescription: "Implementation Support" },
         ],
-        secondImage: webDevImage2,
+        secondImage: softwareArchitectureImage2,
         thirdHeading: "Architecture Benefits",
         thirdDescription: "Leverage cutting-edge architectural solutions to enhance system performance and scalability, aligning with your growth objectives.",
-        thirdImage: webDevImage3,
+        thirdImage: softwareArchitectureImage3,
     },
     socialMediaMarketing: {
         smallHeading: "SOCIAL MEDIA MARKETING",
@@ -339,7 +376,7 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
             "Influencer Collaboration",
             "Community Management",
         ],
-        bannerImage: webDevBannerImage1,
+        bannerImage: socialMediaMarketingImage1,
         secondHeading: "Building a Vibrant Online Community",
         secondDescription: "We craft compelling content and campaigns that resonate with your audience, driving meaningful interactions and expanding your reach on social platforms.",
         secondPoints: [
@@ -348,10 +385,10 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
             { stepNumber: "03", stepDescription: "Multi-Platform Execution" },
             { stepNumber: "04", stepDescription: "Performance Optimization" },
         ],
-        secondImage: webDevImage2,
+        secondImage: socialMediaMarketingImage2,
         thirdHeading: "Social Media Benefits",
         thirdDescription: "Transform your social presence and build lasting relationships by leveraging insights and creativity to engage your audience effectively.",
-        thirdImage: webDevImage3,
+        thirdImage: socialMediaMarketingImage3,
     },
     digitalMarketing: {
         smallHeading: "DIGITAL MARKETING",
@@ -365,7 +402,7 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
             "Conversion Rate Optimization",
             "Brand Strategy",
         ],
-        bannerImage: webDevBannerImage1,
+        bannerImage: digitalMarketingImage1,
         secondHeading: "Driving Growth with Digital Excellence",
         secondDescription: "Our holistic approach integrates cutting-edge tools and techniques to optimize your online presence and unlock new growth opportunities.",
         secondPoints: [
@@ -374,10 +411,10 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
             { stepNumber: "03", stepDescription: "Campaign Execution" },
             { stepNumber: "04", stepDescription: "Results Analysis" },
         ],
-        secondImage: webDevImage2,
+        secondImage: digitalMarketingImage2,
         thirdHeading: "Digital Marketing Benefits",
         thirdDescription: "Achieve measurable growth and a competitive edge with strategies that adapt to the dynamic digital landscape and meet your unique business objectives.",
-        thirdImage: webDevImage3,
+        thirdImage: digitalMarketingImage3,
     },
     emailMarketing: {
         smallHeading: "EMAIL MARKETING",
@@ -391,7 +428,7 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
             "Drip Campaigns",
             "List Management",
         ],
-        bannerImage: webDevBannerImage1,
+        bannerImage: emailMarketingImage1,
         secondHeading: "Crafting Compelling Email Journeys",
         secondDescription: "We leverage data and creativity to deliver engaging email content that informs, entertains, and inspires action, strengthening customer relationships.",
         secondPoints: [
@@ -400,10 +437,10 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
             { stepNumber: "03", stepDescription: "Automated Sending" },
             { stepNumber: "04", stepDescription: "Performance Optimization" },
         ],
-        secondImage: webDevImage2,
+        secondImage: emailMarketingImage2,
         thirdHeading: "Email Marketing Benefits",
         thirdDescription: "Maximize ROI with targeted email strategies that increase customer retention and drive repeat business through meaningful engagement.",
-        thirdImage: webDevImage3,
+        thirdImage: emailMarketingImage3,
     },
     leadGeneration: {
         smallHeading: "LEAD GENERATION",
@@ -417,7 +454,7 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
             "Lead Scoring",
             "CRM Integration",
         ],
-        bannerImage: webDevBannerImage1,
+        bannerImage: leadGenerationImage1,
         secondHeading: "Nurturing Leads to Conversion",
         secondDescription: "Our strategies focus on identifying and engaging potential customers, guiding them through the buyer journey with tailored content and interactions.",
         secondPoints: [
@@ -426,9 +463,9 @@ export const nonThemeServicesData: Record<string, NonThemeServiceData> = {
             { stepNumber: "03", stepDescription: "Lead Nurturing" },
             { stepNumber: "04", stepDescription: "Conversion Tracking" },
         ],
-        secondImage: webDevImage2,
+        secondImage: leadGenerationImage2,
         thirdHeading: "Lead Generation Benefits",
         thirdDescription: "Empower your sales team with a steady stream of qualified leads, boosting sales and accelerating business growth through effective engagement strategies.",
-        thirdImage: webDevImage3,
+        thirdImage: leadGenerationImage3,
     },
 };
