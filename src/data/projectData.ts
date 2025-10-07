@@ -65,11 +65,14 @@ import project41 from '../../public/assets/img/home-04/project/project-6.jpg';
 import project42 from '../../public/assets/img/home-04/project/project-7.jpg';
 
 //portfolio metro images
-import portfolioThumb21 from '../../public/assets/img/home-05/project/project-1.jpg';
-import portfolioThumb22 from '../../public/assets/img/home-05/project/project-2.jpg';
-import portfolioThumb23 from '../../public/assets/img/home-05/project/project-3.jpg';
-import portfolioThumb24 from '../../public/assets/img/home-05/project/project-4.jpg';
-import portfolioThumb25 from '../../public/assets/img/home-05/project/project-5.jpg';
+// import portfolioThumb21 from '../../public/assets/img/home-05/project/project-1.jpg';
+import portfolioThumb21 from '../../public/assets/img/non-theme/portfolio/portfolio1.jpeg';
+// import portfolioThumb22 from '../../public/assets/img/home-05/project/project-2.jpg';
+import portfolioThumb22 from '../../public/assets/img/non-theme/portfolio/portfolio2.jpeg';
+// import portfolioThumb23 from '../../public/assets/img/home-05/project/project-3.jpg';
+import portfolioThumb23 from '../../public/assets/img/non-theme/portfolio/portfolio3.jpeg';
+// import portfolioThumb24 from '../../public/assets/img/home-05/project/project-4.jpg';
+import portfolioThumb24 from '../../public/assets/img/non-theme/portfolio/portfolio4.jpeg';
 
 export const projectsData: projectsDT[] = [
     {
@@ -470,8 +473,8 @@ export const projectsData: projectsDT[] = [
     //portfolio metro data start
     {
         id: 48,
-        title: "imusic",
-        services: "Research, UX, UI Design",
+        title: "personal website",
+        services: "Personal Branding, UX, UI Design",
         image: portfolioThumb21,
         layout: "left",
         hasLineBreak: false,
@@ -479,8 +482,8 @@ export const projectsData: projectsDT[] = [
     },
     {
         id: 49,
-        title: "simple logistics",
-        services: "Research, UX, UI Design",
+        title: "e-commerce store",
+        services: "E-Commerce, Digital Marketing, DevOps, UI Design",
         image: portfolioThumb22,
         hasLineBreak: true,
         contentClass: "pl-200",
@@ -488,8 +491,8 @@ export const projectsData: projectsDT[] = [
     },
     {
         id: 50,
-        title: "genesis",
-        services: "Research, UX, UI Design",
+        title: "fastpay",
+        services: "Finance App, UX, UI Design, Security",
         image: portfolioThumb23,
         layout: "left",
         hasLineBreak: false,
@@ -498,24 +501,13 @@ export const projectsData: projectsDT[] = [
 
     {
         id: 51,
-        title: "simple logistics",
-        services: "Research, UX, UI Design",
+        title: "digital agency",
+        services: "Onlilne Store, UX, UI Design, Marketing",
         image: portfolioThumb24,
         hasLineBreak: true,
         contentClass: "pl-200",
         link: "/portfolio-details-modern-light"
     },
-    {
-        id: 52,
-        title: "genesis",
-        services: "Research, UX, UI Design",
-        image: portfolioThumb25,
-        layout: "left",
-        hasLineBreak: false,
-        link: "/portfolio-details-modern-light",
-    },
-    //portfolio metro data  end
-
 ];
 
 export default projectsData;

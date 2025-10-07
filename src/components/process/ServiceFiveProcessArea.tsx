@@ -23,7 +23,7 @@ const ServiceFiveProcessArea = (data:NonThemeServiceData) => {
                 <div className="row">
                     <div className="col-lg-4">
                         <div className="tp-service-4-process-wrap">
-                            {data.processSteps.map((step) => (
+                            {data.secondPoints.map((step) => (
                                 <div key={step.stepNumber} className="tp-service-4-process-list">
                                     <span>{step.stepNumber}</span>
                                     <p>{step.stepDescription}</p>

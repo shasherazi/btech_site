@@ -1,15 +1,11 @@
 import { NonThemeServiceData } from '@/data/nonThemeServicesData';
 import teamBgImg from '../../../public/assets/img/team/team-bg.png';
 import { ArrowTwenty } from '@/svg/ArrowIcons';
-import { CareerShape } from '@/svg/HeroShape';
 import React from 'react';
 
 const ServiceFiveHero = (data:NonThemeServiceData) => {
     return (
         <div className="ar-hero-area p-relative pt-190 pb-100" style={{ backgroundImage: `url(${teamBgImg.src})` }}>
-            <div className="career-shape-style">
-                <span><CareerShape /></span>
-            </div>
             <div className="container container-1230">
                 <div className="row justify-content-center">
                     <div className="col-xl-12">

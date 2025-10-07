@@ -30,12 +30,9 @@ const headerMenuData:MenuItem[] = [
         link: "#",
         pluseIncon: true,
         megaMenu: [
-          { title: "Recruitment & Staffing", link: "/service-1-light" },
-          { title: "Devops & Automation", link: "/service-2-light" },
-          { title: "Software Architecture", link: "/service-3-light" },
-          { title: "Modern Services", link: "/service-4-light" },
-          { title: "Services Details", link: "/service-details-light" },
-          { title: "Services Details 02", link: "/service-details-2-light" }
+          { title: "Recruitment & Staffing", link: "/service/recruitmentAndStaffing" },
+          { title: "Devops & Automation", link: "/service/devopsAndAutomation" },
+          { title: "Software Architecture", link: "/service/softwareArchitecture" },
         ]
       },
       {
@@ -43,10 +40,10 @@ const headerMenuData:MenuItem[] = [
         link: "#",
         pluseIncon: true,
         megaMenu: [
-          { title: "Social Media Marketing", link: "/career-details-light" },
-          { title: "Digital Marketing", link: "/pricing-light" },
-          { title: "Email Marketing", link: "/team-light" },
-          { title: "Lead Generation & Growth", link: "/team-details-light" }
+          { title: "Social Media Marketing", link: "/service/socialMediaMarketing" },
+          { title: "Digital Marketing", link: "/service/digitalMarketing" },
+          { title: "Email Marketing", link: "/service/emailMarketing" },
+          { title: "Lead Generation & Growth", link: "/service/leadGeneration" },
         
         ]
       }, 
@@ -55,8 +52,8 @@ const headerMenuData:MenuItem[] = [
         link: "#",
         pluseIncon: true,
         megaMenu: [
-          { title: "Personal Branding", link: "/career-details-light" },
-          { title: "Corporate Branding", link: "/pricing-light" },
+          { title: "Personal Branding", link: "/service/personalBranding" },
+          { title: "Corporate Branding", link: "/service/corporateBranding" },
        
         ]
       }
